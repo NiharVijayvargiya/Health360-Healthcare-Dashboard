@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Health360 – Healthcare Risk & Disease Analysis</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@500;700;800&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+</head>
+<body>
+<header><div class="bar">
+  <a class="brand" href="#home">Health360</a>
+  <nav>
+    <a href="#home">Home</a><a href="#about">About</a>
+    <a href="#dashboard">Dashboard</a><a href="#story">Story</a><a href="#faq">FAQ</a>
+  </nav>
+</div></header>
+
+<main>
+<section id="home">
+  <h1>Which patients are at risk, and why?</h1>
+  <p class="lead">Interactive Tableau dashboard and data story built on 5,000 patient records covering age, BMI, lifestyle habits, vitals and chronic disease outcomes.</p>
+  <div class="kpis">
+    <div class="kpi"><b>{{ kpis.patients }}</b><span>Patients analysed</span></div>
+    <div class="kpi"><b>{{ kpis.diabetes }}</b><span>With diabetes</span></div>
+    <div class="kpi"><b>{{ kpis.heart_disease }}</b><span>With heart disease</span></div>
+    <div class="kpi"><b>{{ kpis.stroke }}</b><span>With stroke history</span></div>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About the project</h2>
+  <div class="cols">
+    <div>
+      <h3>The problem</h3>
+      <p>Chronic conditions such as heart disease, diabetes and stroke are often found late. Going through patient records by hand makes early patterns hard to see.</p>
+    </div>
+    <div>
+      <h3>The data</h3>
+      <p>A smart healthcare dataset of 5,000 patients: age, gender, BMI, exercise level, smoking, alcohol, blood pressure, cholesterol, glucose, symptoms and disease flags.</p>
+    </div>
+    <div>
+      <h3>The tools</h3>
+      <p>Tableau Desktop for analysis, Tableau Public for hosting, and Flask to embed the dashboard and story in this page.</p>
+    </div>
+  </div>
+</section>
+
+<section id="dashboard">
+  <h2>Dashboard</h2>
+  <p>Use the BMI Category, Age Group and Exercise Level filters to compare patient segments.</p>
+  {% if dashboard_url %}
+  <div class="viz">
+    <tableau-viz id="dashboardViz" src="{{ dashboard_url }}" toolbar="bottom" hide-tabs></tableau-viz>
+  </div>
+  {% else %}
+  <div class="viz empty">Dashboard link not set. Add your Tableau Public URL to DASHBOARD_URL in app.py.</div>
+  {% endif %}
+</section>
+
+<section id="story">
+  <h2>Story</h2>
+  <p>Each scene follows one chart, from the age mix of the patient base to disease patterns across BMI, exercise and fatigue.</p>
+  {% if story_url %}
+  <div class="viz">
+    <tableau-viz id="storyViz" src="{{ story_url }}" toolbar="bottom" hide-tabs></tableau-viz>
+  </div>
+  {% else %}
+  <div class="viz empty">Story link not set. Add your Tableau Public URL to STORY_URL in app.py.</div>
+  {% endif %}
+</section>
+
+<section id="faq">
+  <h2>FAQ</h2>
+  <p class="qa"><button type="button" class="q" aria-expanded="false">Where does the data come from?</button> <span class="a" hidden>A 5,000-row smart healthcare dataset (CSV) connected directly to Tableau Desktop.</span></p>
+  <p class="qa"><button type="button" class="q" aria-expanded="false">How are age groups defined?</button> <span class="a" hidden>Teenager 18–30, Young Adult 31–40, Adult 41–50, Middle Age 51–60, Senior 61–70, Old above 70. They come from a calculated field in Tableau.</span></p>
+  <p class="qa"><button type="button" class="q" aria-expanded="false">How are BMI categories defined?</button> <span class="a" hidden>Underweight below 18.5, Normal 18.5–24.9, Overweight 25–29.9, Obese 30 and above.</span></p>
+  <p class="qa"><button type="button" class="q" aria-expanded="false">Is this medical advice?</button> <span class="a" hidden>No. This is a learning project and should not be used for diagnosis or treatment decisions.</span></p>
+</section>
+</main>
+<footer>Health360 · Built with Tableau Public and Flask</footer>
+<script>
+document.querySelectorAll('.qa').forEach(function(p){
+  var b=p.querySelector('.q'), a=p.querySelector('.a');
+  b.addEventListener('click',function(){
+    var open=a.hidden;
+    a.hidden=!open;
+    b.setAttribute('aria-expanded',open);
+  });
+});
+</script>
+</body>
+</html>
