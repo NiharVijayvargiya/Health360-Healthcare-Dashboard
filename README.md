@@ -16,8 +16,6 @@ Chronic diseases such as heart disease, diabetes and stroke are often detected l
 ## Story
 <img width="800" alt="Health360 Story" src="https://github.com/user-attachments/assets/e52b56eb-305d-454d-ba2a-dd2260c2dd9a" />
 
-The full walkthrough with every chart is in the Project Documentation PDF inside the `phases` folder.
-
 ## Key findings
 - Age is the strongest factor: no patient aged 50 or under has any of the three conditions.
 - Heart disease rate rises with BMI: Underweight 20.5%, Normal 26.0%, Overweight 32.9%, Obese 40.0%.
@@ -26,7 +24,7 @@ The full walkthrough with every chart is in the Project Documentation PDF inside
 The dataset looks synthetic. This is a learning project, not medical advice.
 
 ## What is inside
-- 9 visualizations, 1 dashboard, 1 story (Tableau Public)
+- 1 dashboard & 1 story (Tableau Public)
 - Calculated fields: Age Group, Bmi Category, Exercise Label
 - Flask app that embeds the dashboard and story
 - `data/smart_healthcare_dataset.csv`: source dataset
