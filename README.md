@@ -27,8 +27,9 @@ Chronic diseases such as heart disease, diabetes and stroke are often detected l
 - **Interactive Filters:** `Age Group`, `Bmi Category`, and `Exercise Label`
 
 ## Run locally
+Run the following commands to install dependencies from requirements.txt and launch the Flask server via app.py:
 ```
 pip install -r requirements.txt
 python app.py
 ```
-Open http://127.0.0.1:5000
+Once the server is running, open http://127.0.0.1:5000 in your browser.
