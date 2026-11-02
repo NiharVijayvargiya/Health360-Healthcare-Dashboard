@@ -23,7 +23,7 @@ Chronic diseases such as heart disease, diabetes and stroke are often detected l
 
 ## What is inside
 - **Tableau Public:** 1 dashboard and 1 story
-- **Web App:** Flask application that embeds the dashboa**rd and story
+- **Web App:** Flask application that embeds the dashboard and story
 - **Interactive Filters:** `Age Group`, `Bmi Category`, and `Exercise Label`
 
 ## Run locally
