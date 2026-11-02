@@ -8,7 +8,7 @@ Chronic diseases such as heart disease, diabetes and stroke are often detected l
 ## Links
 - Dashboard: https://public.tableau.com/app/profile/nihar.vijayvargiya/viz/Health360_17934468105130/Health360Dashboard
 - Story: https://public.tableau.com/app/profile/nihar.vijayvargiya/viz/Health360_17934468105130/Health360Story
-- Demo video: https://drive.google.com/file/d/1HwZMmzwnsz3MI2uoAWj93sWubI4FbPbZ/view?usp=drive_link
+- Demo Video: https://drive.google.com/file/d/1HwZMmzwnsz3MI2uoAWj93sWubI4FbPbZ/view?usp=drive_link
 
 ## Dashboard
 <img width="800" alt="Health360 Dashboard" src="https://github.com/user-attachments/assets/7cb6345b-a7ca-4888-9b84-c69e6eb28621" />
