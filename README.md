@@ -1,6 +1,6 @@
 # Health360: Comprehensive Healthcare Risk & Disease Analysis
 
-Tableau dashboard and data story on a 5,000-record healthcare dataset, embedded in a Flask web app.
+Health360 is an interactive Tableau analytics project and Flask web application built on a 5,000-record healthcare dataset.
 
 ## Problem
 Chronic diseases such as heart disease, diabetes and stroke are often detected late, and reviewing patient records by hand hides patterns. Health360 turns the records into an interactive dashboard so those patterns become visible quickly.
