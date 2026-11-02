@@ -1,3 +1,5 @@
+<img width="1700" height="1651" alt="16_story_full" src="https://github.com/user-attachments/assets/e52b56eb-305d-454d-ba2a-dd2260c2dd9a" />
+<img width="1220" height="1497" alt="15_dashboard_full" src="https://github.com/user-attachments/assets/7cb6345b-a7ca-4888-9b84-c69e6eb28621" />
 # Health360: Comprehensive Healthcare Risk & Disease Analysis
 
 Tableau dashboard and data story on a 5,000-record healthcare dataset, embedded in a Flask web app.
