@@ -21,8 +21,6 @@ Chronic diseases such as heart disease, diabetes and stroke are often detected l
 - **BMI Progression:** Heart disease rate rises consistently with BMI: Underweight (20.5%), Normal (26.0%), Overweight (32.9%), and Obese (40.0%).
 - **Blood Pressure:** 54.9% of patients have a blood pressure reading of 130 or above.
 
-The dataset looks synthetic. This is a learning project, not medical advice.
-
 ## What is inside
 - 1 dashboard & 1 story (Tableau Public)
 - Calculated fields: Age Group, Bmi Category, Exercise Label
