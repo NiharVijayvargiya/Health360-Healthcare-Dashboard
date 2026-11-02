@@ -17,9 +17,9 @@ Chronic diseases such as heart disease, diabetes and stroke are often detected l
 <img width="800" alt="Health360 Story" src="https://github.com/user-attachments/assets/e52b56eb-305d-454d-ba2a-dd2260c2dd9a" />
 
 ## Key Analytical Findings
-- Age is the strongest factor: no patient aged 50 or under has any of the three conditions.
-- Heart disease rate rises with BMI: Underweight 20.5%, Normal 26.0%, Overweight 32.9%, Obese 40.0%.
-- 54.9% of patients have blood pressure of 130 or above.
+- **Age Threshold:** Age is the strongest factor; no patient aged 50 or under has any of the three conditions[cite: 1].
+- **BMI Progression:** Heart disease rate rises consistently with BMI: Underweight (20.5%), Normal (26.0%), Overweight (32.9%), and Obese (40.0%)[cite: 1].
+- **Blood Pressure:** 54.9% of patients have a blood pressure reading of 130 or above[cite: 1].
 
 The dataset looks synthetic. This is a learning project, not medical advice.
 
