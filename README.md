@@ -17,7 +17,7 @@ Chronic diseases such as heart disease, diabetes and stroke are often detected l
 <img width="800" alt="Health360 Story" src="https://github.com/user-attachments/assets/e52b56eb-305d-454d-ba2a-dd2260c2dd9a" />
 
 ## What is inside
-- 9 visualizations, 1 dashboard, 1 story (Tableau Public)
+- 1 dashboard & 1 story (Tableau Public)
 - Calculated fields: Age Group, Bmi Category, Exercise Label
 - Flask app that embeds the dashboard and story
 - `data/smart_healthcare_dataset.csv`: source dataset
