@@ -3,7 +3,7 @@
 Health360 is an interactive Tableau analytics project and Flask web application built on a 5,000-record healthcare dataset.
 
 ## Problem
-Chronic diseases such as heart disease, diabetes and stroke are often detected late, and reviewing patient records by hand hides patterns. Health360 turns the records into an interactive dashboard so those patterns become visible quickly.
+Chronic diseases such as heart disease, diabetes and stroke are often detected late because reviewing patient records by hand hides broader population trends. Health360 transforms static patient records into an interactive dashboard so those trends become visible quickly.
 
 ## Links
 - Dashboard: https://public.tableau.com/app/profile/nihar.vijayvargiya/viz/Health360_17934468105130/Health360Dashboard
