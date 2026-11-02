@@ -22,10 +22,9 @@ Chronic diseases such as heart disease, diabetes and stroke are often detected l
 - **Blood Pressure:** 54.9% of patients have a blood pressure reading of 130 or above.
 
 ## What is inside
-- 1 dashboard & 1 story (Tableau Public)
-- Calculated fields: Age Group, Bmi Category, Exercise Label
-- Flask app that embeds the dashboard and story
-- `data/smart_healthcare_dataset.csv`: source dataset
+- **Tableau Public:** 1 dashboard and 1 story
+- **Web App:** Flask application that embeds the dashboa**rd and story
+- **Interactive Filters:** `Age Group`, `Bmi Category`, and `Exercise Label`
 
 ## Run locally
 ```
