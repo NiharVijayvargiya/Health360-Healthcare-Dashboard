@@ -5,7 +5,7 @@ Tableau dashboard and data story on a 5,000-record healthcare dataset, embedded 
 ## Links
 - Dashboard: https://public.tableau.com/app/profile/nihar.vijayvargiya/viz/Health360_17934468105130/Health360Dashboard
 - Story: https://public.tableau.com/app/profile/nihar.vijayvargiya/viz/Health360_17934468105130/Health360Story
-- Demo video: (add link)
+- Demo video: https://drive.google.com/file/d/1HwZMmzwnsz3MI2uoAWj93sWubI4FbPbZ/view?usp=drive_link
 
 ## What is inside
 - 9 visualizations, 1 dashboard, 1 story (Tableau Public)
